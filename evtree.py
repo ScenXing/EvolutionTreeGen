@@ -35,4 +35,4 @@ def treeraw(ListOfOrganismValues):
             (oldname,oldy,oldz) = L[x-1] 
             curve(pos=[(x-1,oldy,oldz), (x,y,z)], radius=0.05) #making the lines between the animals
 
-#tree([["Horse",0,0],["Donkey",1,8],["Chicken",11,10],["Penguin",13, 15],["Snake",21,16]]) #our example
+#treeraw([["Horse",0,0],["Donkey",1,8],["Chicken",11,10],["Penguin",13, 15],["Snake",21,16]]) #our example
