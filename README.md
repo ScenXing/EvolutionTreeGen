@@ -21,19 +21,34 @@ Once you have all those files downloaded and installed, just run the python file
 Here is the sample data we have, please feel free to find your own data and send pictures of the evolutionary trees to arya@aryaboudaie.com
 
 How many animals do you want: 5
+
 Name of Organism #1: Horse
+
 Name of Organism #2: Donkey
+
 Evolutionary Distance from Horse: 1
+
 Paralogs with Horse: 8
+
 Name of Organism #3: Chicken
+
 Evolutionary Distance from Horse: 11
+
 Paralogs with Donkey: 10
+
 Name of Organism #4: Penguin
+
 Evolutionary Distance from Horse: 13
+
 Paralogs with Chicken: 15
+
 Name of Organism #5: Snake
+
 Evolutionary Distance from Horse: 21
+
 Paralogs with Penguin: 16
+
+
 
 Notice that is asks for evolutionary distance from the first animal, but for paralogs with the previous animal. The scaling for the paralogs (z axis) is 20/z, where z is the number of paralogs in common with the previous animal (so the more paralogs, the closer the animals)
 
